@@ -1,0 +1,26 @@
+GET http://localhost:5000/register
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2E0NTM0MmJhOTdkYWZiMTcwZDg5ZjMiLCJ1c2VybmFtZSI6InVzZXJuYW1lMTIzIiwiZW1haWwiOiJlbWFpbEBlbWFpbC5jb20iLCJpYXQiOjE2NzIzMjYwODIsImV4cCI6MTY3MjMyNjEwMn0.2wipFykrA7odPrmbEJHHEdmpKyQDKqijARI5_T3uYbU
+###
+
+POST http://localhost:5000/register
+
+{
+    "email": "unicornhorse1@gmail.com",
+    "username": "muhfikrixyz",
+    "password": "muhfikri04"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "muhfikri123",
+    "password": "muhfikri123"
+}
+
+### 
+GET http://localhost:5000/token
+
+###
+DELETE http://localhost:5000/logout
